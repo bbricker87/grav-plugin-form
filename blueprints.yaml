@@ -71,6 +71,10 @@ form:
             0: PLUGIN_ADMIN.DISABLED
           validate:
             type: bool
+        files.filesize:
+          type: text
+          label: Max File Size
+          help: Maximum file size allowed (in MB)
         files.destination:
           type: text
           label: PLUGIN_FORM.DESTINATION
